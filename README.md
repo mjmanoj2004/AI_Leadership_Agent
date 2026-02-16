@@ -55,8 +55,6 @@ AI_Leadership_Agent/
 │   └── chroma_db/
 │
 ├── requirements.txt
-├── run_api.py
-├── run_ui.py
 └── README.md
 ```
 
@@ -292,6 +290,7 @@ You can extend the system by:
 - connection pooling
 - Docker, K8s
 ---
+
 
 
 
