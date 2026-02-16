@@ -1,0 +1,61 @@
+AI_Leadership_Agent/
+├── .env.example
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── data/
+│   └── documents/
+│       └── Annual reports, Quaterly reports, Strategy notes, Operations updates
+├── README.md
+├── requirements.txt
+├── run_api.py
+├── run_ui.py
+├── scripts/
+│   └── ingest_documents.py
+├── src/
+│   ├── __init__.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   └── routes.py
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── decision_agent.py
+│   │   ├── insight_agent.py
+│   │   └── router.py
+│   ├── graph/
+│   │   ├── __init__.py
+│   │   ├── builder.py
+│   │   ├── nodes/
+│   │   │   ├── __init__.py
+│   │   │   ├── decision_synthesis.py
+│   │   │   ├── internal_research.py
+│   │   │   ├── knowledge_gap.py
+│   │   │   ├── question_analyzer.py
+│   │   │   ├── risk_assessment.py
+│   │   │   └── strategic_reasoning.py
+│   │   └── state.py
+│   ├── ingestion/
+│   │   ├── __init__.py
+│   │   ├── document_processor.py
+│   │   └── watcher.py
+│   ├── llm/
+│   │   ├── __init__.py
+│   │   └── factory.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── schemas.py
+│   ├── prompts/
+│   │   ├── __init__.py
+│   │   ├── insight_prompt.py
+│   │   ├── question_analyzer_prompt.py
+│   │   ├── question_classifier_prompt.py
+│   │   ├── risk_analysis_prompt.py
+│   │   ├── strategic_planner_prompt.py
+│   │   └── synthesis_prompt.py
+│   ├── retrieval/
+│   │   ├── __init__.py
+│   │   ├── embeddings.py
+│   │   └── vector_store.py
+└── ui/
+    └── app.py

@@ -1,0 +1,48 @@
+# AI Leadership Insight & Autonomous Decision Agent
+# Python 3.10+
+
+# Backend
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# UI
+streamlit>=1.29.0
+requests>=2.31.0
+
+# LLM & chains (MODERN STACK)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-huggingface>=1.1.0
+langchain-chroma>=0.1.0
+langgraph>=0.2.0
+langchain-community>=0.3.0
+
+
+
+
+# HuggingFace
+huggingface-hub>=0.20.0
+sentence-transformers>=2.2.0
+transformers>=4.36.0
+torch>=2.0.0
+accelerate>=0.25.0
+
+# Vector DB
+chromadb>=0.4.22
+rank-bm25>=0.2.2
+
+# Document processing
+pypdf>=3.17.0
+python-docx>=1.1.0
+unstructured>=0.11.0
+
+# File monitoring
+watchdog>=3.0.0
+
+# Utilities
+python-multipart>=0.0.6
+httpx>=0.26.0
+tenacity>=8.2.0
+pandas>=2.0.0
