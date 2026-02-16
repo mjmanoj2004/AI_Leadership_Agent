@@ -1,6 +1,6 @@
 # 🚀 AI Leadership Insight & Autonomous Decision Agent
 
-Production-ready modular AI system with two distinct agents:
+Modular AI system with two distinct agents:
 
 1. **Insight Agent** – RAG-based agent that answers factual questions from internal company documents (Chroma + sentence-transformers).
 2. **Strategic Decision Agent** – LangGraph workflow:
@@ -15,7 +15,7 @@ Production-ready modular AI system with two distinct agents:
 
 # 🧱 Tech Stack
 
-- **Python 3.11+**
+- **Python 3.11
 - **Backend:** FastAPI
 - **UI:** Streamlit
 - **LLM Orchestration:** LangChain + LangGraph
@@ -274,28 +274,25 @@ query_documents(use_hybrid=False)
 
 ---
 
-# 🔧 Extensibility
+# 🔧 Extensibility - For Production Grade
 
 You can extend the system by:
 
 - Adding new tools (web search, forecasting, financial analysis)
-- Adding new LangGraph nodes in `src/graph/builder.py`
-- Connecting nodes with `add_edge()` or `add_conditional_edges()`
 - Introducing memory or multi-agent collaboration
-
+- AWS - S3 bucket for documents, API gateway, Rate limiting, 
+- LLM - any better/latest/Fine tuned/ vLLM can be used
+- Vector DB - Any other managed vector db is better option for production grade applications
+- Token usage monitoring can be done
+- Observability can be included e.g. langsmith
+- Access - JWT token, Role based access to upload documents
+- Gaurdrails
+- Redis cache
+- Async processing
+- connection pooling
+- Docker, K8s
 ---
 
-# 🏗 Code Quality
 
-- Full type hints
-- Central configuration (`config/settings.py`)
-- No hardcoded paths
-- Structured logging
-- Modular architecture
-- Production-ready separation of concerns
 
----
 
-# 📜 License
-
-Use as needed within your organization.
